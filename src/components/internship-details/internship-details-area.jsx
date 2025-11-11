@@ -19,7 +19,7 @@ const InternshipDetailsArea = ({ course }) => {
                                 </li>
                                 <li className="nav-item" role="presentation">
                                     <button className="nav-link" id="carriculam-tab" data-bs-toggle="tab" data-bs-target="#carriculam"
-                                    type="button" role="tab" aria-controls="carriculam" aria-selected="false" tabIndex={-1}>Carriculam</button>
+                                    type="button" role="tab" aria-controls="carriculam" aria-selected="false" tabIndex={-1}>Curriculum</button>
                                 </li>
                                 <li className="nav-item" role="presentation">
                                     <button className="nav-link" id="instructor-tab" data-bs-toggle="tab" data-bs-target="#instructor"

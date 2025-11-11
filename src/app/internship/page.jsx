@@ -2,8 +2,10 @@
 import React from 'react'
 import { Header, Footer } from '@/layout'
 import Internship from '@/components/internship/internship'
+import useParallax from '@/hooks/use-parallax' 
 
 export default function InternshipPage() {
+  useParallax();
   return (
     <div className="sticky-header">
       <div id="main-wrapper" className="main-wrapper">

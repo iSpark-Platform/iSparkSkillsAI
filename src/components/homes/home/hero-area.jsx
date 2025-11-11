@@ -10,7 +10,7 @@ const HeroArea = () => {
                     <div className="col-lg-6">
                         <div className="banner-content">
                             <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">WORLD'S FIRST <span className="color-secondary">AGENTIC AI PLATFORM</span> <br />FOR LEARNING & PLACEMENT</h1>
-                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Acquire industry5.0- relevant skills in 12 most sought-after technologies and get placed in industries specialising in Robotics, AI, IoT, EV, Renewable Energy, Cybersecurity, Quantum Computing, Cloud Computing, Edge Computing etc.</p>
+                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Acquire industry 5.0- relevant skills in 12 most sought-after technologies and get placed in industries specialising in Robotics, AI, IoT, EV, Renewable Energy, Cybersecurity, Quantum Computing, Cloud Computing, Edge Computing etc.</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
                                 <Link href="/course-style-3" className="edu-btn">
                                     Find courses <i className="icon-4"></i>
