@@ -1,5 +1,5 @@
 import { Wrapper } from "@/layout";
-import RegisterMain from "@/components/Register";
+import RegisterMain from "@/components/register";
 
 export const metadata = {
   title: 'Login '
