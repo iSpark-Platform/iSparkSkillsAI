@@ -27,6 +27,7 @@
     "firebase": "^10.1.0",
     "formik": "^2.4.3",
     "framer-motion": "^10.15.1",
+    "lucide-react": "^0.553.0",
     "next": "^14.2.3",
     "next-themes": "^0.2.1",
     "node": "^25.1.0",
@@ -47,6 +48,7 @@
     "sal.js": "^0.8.5",
     "sass": "^1.64.2",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.19",
     "swiper": "^10.1.0",
     "yup": "^1.2.0"
   }

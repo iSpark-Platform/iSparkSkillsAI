@@ -2,6 +2,7 @@ import './globals.scss';
 import { Providers } from "@/redux/provider";
 import {Poppins} from 'next/font/google';
 import localFont from "next/font/local";
+import AIIcon from "@/layout/ai-icon/ai";
 
 export const metadata = {
   title: 'iSpark Skills',
@@ -54,6 +55,7 @@ export default function RootLayout({ children }) {
       <body className={`${poppins.variable} ${spartan.variable}`}>
         <Providers>
           {children}
+          <AIIcon />
         </Providers>
       </body>
     </html>
