@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { internship_data } from '../../data';
-import SortingArea from '../course-filter/sorting-area';
+import SortingArea from '../internship-filter/sorting-area';
 import InternshipType from '../course/internship-type';
 import BreadcrumbThree from "../../components/breadcrumb/breadcrumb-3";
 
