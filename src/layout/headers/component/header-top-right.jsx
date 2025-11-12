@@ -11,8 +11,8 @@ const social_share = [
 const HeaderTopRight = () => {
     return (
         <ul className="header-info">
-            <li><Link href="/sign-in">Login</Link></li>
-            <li><Link href="/sign-in">Register</Link></li>
+            <li><Link href="/login">Login</Link></li>
+            <li><Link href="/register">Register</Link></li>
             <li><a href="tel:+91 91761 32300"><i className="icon-phone"></i>Call: +91 91761 32300</a></li>
             <li><a href="mailto:info@isparkskills.ai" rel="noreferrer" target="_blank"><i className="icon-envelope"></i>Email: info@isparkskills.ai</a></li>
             <li className="social-icon">

@@ -31,8 +31,8 @@ const HeaderTwo = ({ style_3, no_topBar = false }) => {
 
                                 <div className="header-top-right">
                                     <ul className="header-info">
-                                        <li><Link href="/sign-in">Login</Link></li>
-                                        <li><Link href="/sign-in">Register</Link></li>
+                                        <li><Link href="/login">Login</Link></li>
+                                        <li><Link href="/register">Register</Link></li>
                                         <li className="header-btn"><a href="#" className={`edu-btn ${style_3 ? '' : 'btn-secondary'} btn-medium`}>Apply Now <i className="icon-4"></i></a></li>
                                     </ul>
                                 </div>
