@@ -14,11 +14,11 @@ const course_data = [
   category: 'Robotics & AI',
   short_desc:
     'This Professional Diploma equips learners to design, program, and deploy humanoid robots for healthcare, hospitality, retail, and customer service. Gain hands-on experience with AIoT and real-world projects to become industry-ready.',
-  instructor: 'Jane Seymour',
+  instructor: 'Rajesh Nair',
   instructor_img: 'team-01.jpg',
   instructor_title: 'Founder & CEO',
   instructor_desc:
-    'Jane Seymour is a robotics engineer and AI educator with over 12 years of experience in humanoid robot design, automation, and applied AI systems. She has trained professionals across industries in building service robots for healthcare and customer engagement.',
+    'Rajesh Nair is a robotics engineer and AI educator with over 12 years of experience in humanoid robot design, automation, and applied AI systems. She has trained professionals across industries in building service robots for healthcare and customer engagement.',
   features: [
     'Comprehensive course modules covering robotics, AI, and sensors',
     'Hands-on humanoid robotics projects with real-world applications',
@@ -210,10 +210,10 @@ const course_data = [
     student: 98,
     category: 'Artificial Intelligence',
     short_desc: 'Master AI, ML, DL, and Robotics applications across industries through 240 hours of blended learning and hands-on projects. Gain real-world expertise through industry-aligned AI capstone projects designed to make you job-ready.',
-    instructor: 'Dr. Susan White',
+    instructor: 'Aditi Verma',
     instructor_img: 'team-05.jpg',
     instructor_title: 'AI & Robotics Expert',
-    instructor_desc: 'Dr. Susan White brings over 15 years of experience in Artificial Intelligence, Robotics, and Machine Learning, mentoring hundreds of engineers in applied AI projects across healthcare, finance, and manufacturing.',
+    instructor_desc: 'Aditya Sharma brings over 15 years of experience in Artificial Intelligence, Robotics, and Machine Learning, mentoring hundreds of engineers in applied AI projects across healthcare, finance, and manufacturing.',
     features: [
     'Hands-on AI and Robotics learning with real-world projects.',
     'Blended model: 30% live faculty + 70% AI-driven self-paced learning.',
@@ -330,10 +330,10 @@ const course_data = [
   student: 58,
   category: 'AI & Robotics',
   short_desc: 'Master Cloud, Edge, IoT, and Robotics through hands-on, project-based learning across 10 industry-aligned modules. Experience an hands-on journey from prototyping to AI-powered humanoid robotics with expert mentorship.',
-  instructor: 'Dr. Sagar Hase',
+  instructor: 'Aditya Sharma',
   instructor_img: 'team-02.jpg',
   instructor_title: 'Lead Mentor – VTU Hands-on STEM Lab',
-  instructor_desc: 'Dr. Hase is an expert in embedded systems, AIoT, and robotics education, guiding students through real-world lab projects with industry integration.',
+  instructor_desc: 'Aditya Sharma is an expert in embedded systems, AIoT, and robotics education, guiding students through real-world lab projects with industry integration.',
   features: [
     '60-hour practical program with live mentorship and hands-on labs.',
     '10 real-world modules across IoT, AI, Cloud, and Robotics domains.',
@@ -480,10 +480,10 @@ const course_data = [
   student: 25,
   category: 'Cybersecurity',
   short_desc: 'Secure your future with our Career-Ready Diploma in Cybersecurity & Digital Forensics. Learn to protect digital assets, detect threats, and investigate cybercrimes using cutting-edge tools and security techniques.',
-  instructor: 'Dr. Aryan Mehta',
+  instructor: 'Vivek Iyer',
   instructor_img: 'team-03.jpg',
   instructor_title: 'Cybersecurity Lead, iSpark Learning',
-  instructor_desc: 'With over 12 years of experience in ethical hacking, SOC operations, and cyber-forensics, Dr. Mehta has trained 1,000+ professionals in advanced cybersecurity tools and frameworks.',
+  instructor_desc: 'With over 12 years of experience in ethical hacking, SOC operations, and cyber-forensics,Vivek Iyer has trained 1,000+ professionals in advanced cybersecurity tools and frameworks.',
   features: [
     'Gain mastery in ethical hacking, SOC operations, and digital forensics.',
     'Hands-on cloud-based cyber-range labs with 1:4 mentorship.',
@@ -630,11 +630,11 @@ const course_data = [
   category: 'STEM & Engineering',
   short_desc:
     'Prepare for a future in Science, Technology, Engineering, and Mathematics with hands-on, project-based learning across IoT, AI, Robotics, and Cloud systems designed for UG students.',
-  instructor: 'Dr. Aarav Mehta',
+  instructor: 'Ananya Reddy',
   instructor_img: 'team-04.jpg',
   instructor_title: 'Lead Instructor, iSpark Learning',
   instructor_desc:
-    'Dr. Aarav Mehta is an experienced educator and technologist specializing in robotics, IoT, and AI education. He has led multiple national-level hands-on programs integrating engineering education with applied research and innovation.',
+    'Ananya Reddy is an experienced educator and technologist specializing in robotics, IoT, and AI education. she has led multiple national-level hands-on programs integrating engineering education with applied research and innovation.',
   features: [
     '40 in-lab sessions covering Robotics, IoT, AI, and DevOps fundamentals',
     'Each session includes a working project with GitHub portfolio submission',
@@ -1885,7 +1885,7 @@ const course_data = [
     student: 38,
     category:'Art & Design',
     short_desc: 'Lorem ipsum dolor sit amet consectur elit sed eiusmod ex tempor incididunt labore dolore magna.',
-    instructor: 'John Travolta',
+    instructor: 'Ananya Reddy',
     instructor_img:'team-04.webp',
     instructor_title:'Founder & CEO',
     instructor_desc:'Consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea commodo consequat. duis aute irure dolor in reprehenderit in voluptate.',

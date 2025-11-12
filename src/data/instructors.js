@@ -7,7 +7,7 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Jane Seymour',
+        name:'Rajesh Nair',
         title:'UI Designer',
         delay:'50',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
@@ -20,7 +20,7 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Edward Norton',
+        name:'Aditya Sharma',
         title:'Web Developer',
         delay:'100',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
@@ -33,7 +33,7 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Penelope Cruz',
+        name:'Vivek Iyer',
         title:'Digital Marketer',
         delay:'150',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
@@ -46,7 +46,7 @@ const instructors_data = [
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'John Travolta',
+        name:'Ananya Reddy',
         title:'Wordpress Expert',
         delay:'200',
         sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
