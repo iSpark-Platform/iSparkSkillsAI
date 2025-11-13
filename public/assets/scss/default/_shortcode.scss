@@ -604,27 +604,7 @@ Custom Row
     bottom: 200%; 
 }
   
-.preloader-close-btn-wraper {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 30px;
-    transition: all 1.5s ease-out; 
-}
-  
-.preloader-close-btn-wraper .preloader-close-btn {
-    border-radius: 50px;
-    font-size: 13px;
-    padding: 4px 23px;
-    background: var(--color-black);
-    color: var(--color-white);
-    cursor: pointer;
-    height: 45px;
-    line-height: 35px;
-    border: 0;
-    text-transform: uppercase;
-    font-weight: 600;
-}
+
 
 .loading-spinner {
     width: 40px;
@@ -632,7 +612,7 @@ Custom Row
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+   
 }
   
 .preloader-spin-1 {
@@ -644,7 +624,7 @@ Custom Row
     position: absolute;
     top: 0;
     left: 0;
-    animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out; 
+  
 }
   
 .preloader-spin-2 {
@@ -656,8 +636,7 @@ Custom Row
     position: absolute;
     top: 0;
     left: 0;
-    animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
-    animation-delay: -1.0s; 
+    
 }
   
 @-webkit-keyframes edublink-preloader-bounce-animation {
