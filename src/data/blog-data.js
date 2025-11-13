@@ -246,7 +246,7 @@ const blog_data = [
   },
   {
     id:22,
-    img:'https://isparklearning.com/assets/images/blog/style1/future-ai.jpg',
+    img:'/assets/images/blog/blog-05.jpg',
     category:'Artificial Inteligence',
     title:'AI and the Future of Work - What Skills Will Be in High Demand?',
     date:'January 31, 2025',
