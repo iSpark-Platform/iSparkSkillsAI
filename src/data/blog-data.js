@@ -84,7 +84,7 @@ const blog_data = [
   // home 5
   {
     id: 8,
-    img: '/assets/images/blog/blog-11.jpg',
+    img: '/assets/images/blog/blog-01.jpg',
     category: 'ONLINE',
     title: 'Become a Better Blogger: Content Planning',
     date: "Oct 10, 2026",
@@ -95,7 +95,7 @@ const blog_data = [
   },
   {
     id: 9,
-    img: '/assets/images/blog/blog-12.jpg',
+    img: '/assets/images/blog/blog-02.jpg',
     category: 'LECTURE',
     title: 'Fresh Inspiration For March And A Smashing',
     date: "Oct 15, 2026",
@@ -106,7 +106,7 @@ const blog_data = [
   },
   {
     id: 10,
-    img: '/assets/images/blog/blog-13.jpg',
+    img: '/assets/images/blog/blog-03.jpg',
     category: 'BUSINESS',
     title: 'How to Developers Taking the Guess Work',
     date: "Oct 20, 2026",
@@ -213,7 +213,7 @@ const blog_data = [
   {
     id:19,
     video:true,
-    img:'https://isparklearning.com/assets/images/blog/style1/robotic.jpg',
+    img:'assets/images/blog/blog-01.jpg',
     category:'Robotics',
     title:'Is the World Becoming Robotic and Agentic? What It Means for the Next Generation',
     date:'January 15, 2025',
@@ -225,7 +225,7 @@ const blog_data = [
     id:20,
     slider:true,
     images:[
-      'https://isparklearning.com/assets/images/blog/style1/AI.jpg  ',
+      'assets/images/blog/blog-02.jpg',
     ],
     category:'ARTIFICIAL INTELIGENCE',
     title:'Future-Proofing Education - The Skills Students Need in the Age of AI',
@@ -236,7 +236,7 @@ const blog_data = [
   },
   {
     id:21,
-    img:'https://isparklearning.com/assets/images/blog/style1/teaching-ai.png',
+    img:'assets/images/blog/blog-03.jpg',
     category:'Artificial Inteligence',
     title:'Blending AI and Human Teaching - How Educators Can Stay Relevant',
     date:'January 29, 2025',
