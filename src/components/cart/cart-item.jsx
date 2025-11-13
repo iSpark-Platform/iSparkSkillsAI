@@ -25,7 +25,7 @@ const CartItem = ({ item }) => {
             </td>
 
             <td className="product-price" data-title="Price">
-                <span className="currency-symbol">$</span>{item.price}
+                <span className="currency-symbol">₹</span>{item.price}
             </td>
 
             <td className="product-quantity" data-title="Qty">
@@ -37,7 +37,7 @@ const CartItem = ({ item }) => {
             </td>
             
             <td className="product-subtotal" data-title="Subtotal">
-                <span className="currency-symbol">$</span>{(item.quantity * item.price).toFixed(2)}
+                <span className="currency-symbol">₹</span>{(item.quantity * item.price).toFixed(2)}
             </td>
         </tr>
     )

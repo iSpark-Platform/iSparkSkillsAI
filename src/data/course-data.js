@@ -191,10 +191,10 @@ const course_data = [
 ],
  
     reviews:[
-      {img:'/assets/images/blog/comment-01.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-02.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-03.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-    ]
+        {img:'/assets/images/blog/comment.png',rating:5,name:'Nisha Verma',date:'Oct 20, 2025',desc:'Excellent balance between theory and practical sessions. The iSpark CoE’s robotics lab helped me understand human–robot interaction in real-life service use cases.'},
+        {img:'/assets/images/blog/comment-02.png',rating:5,name:'Rohit Sharma',date:'Oct 21, 2025',desc:'This diploma helped me specialize in service robots and automation. The mentorship was exceptional — clear, structured, and full of real-world insights.'},
+        {img:'/assets/images/blog/comment-03.png',rating:5,name:'Aarav Mehta',date:'Oct 22, 2025',desc:'The Humanoid Robotics course gave me hands-on exposure to sensors, servos, and motion algorithms. I actually built a working humanoid prototype — an unforgettable experience!'},
+     ]
   },
   {
     id: 2,
@@ -311,10 +311,10 @@ const course_data = [
       },
     ],
     reviews:[
-      {img:'/assets/images/blog/comment-01.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-02.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-03.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-    ]
+       {img:'/assets/images/blog/comment.png',rating:5,name:'Priya Nair',date:'Oct 23, 2025',desc:'From data preprocessing to deploying AI models, this program covers it all. I learned how AI drives industries like healthcare and retail with live projects.'},
+       {img:'/assets/images/blog/comment-02.png',rating:5,name:'Karan Gupta',date:'Oct 24, 2025',desc:'The case studies and project-driven learning helped me apply AI in multiple domains. The instructors simplified even the toughest ML concepts.'},
+       {img:'/assets/images/blog/comment-03.png',rating:5,name:'Sana Khan',date:'Oct 25, 2025',desc:'A perfect start for anyone wanting to enter AI professionally. The blend of Python, ML, and industry applications gave me confidence to build solutions on my own.'},
+      ]
   },
   {
   id: 3,
@@ -461,9 +461,9 @@ const course_data = [
     },
   ],
     reviews:[
-      {img:'/assets/images/blog/comment-01.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-02.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-03.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+      {img:'/assets/images/blog/comment.png',rating:5,name:'Sneha Iyer',date:'Oct 26, 2025',desc:'Loved how the course connects edge computing to real industrial applications. The live cloud setup and deployment sessions were the highlight.'},
+      {img:'/assets/images/blog/comment-02.png',rating:5,name:'Arjun Patel',date:'Oct 27, 2025',desc:'This diploma made me industry-ready for cloud and IoT careers. I learned AWS, Azure, and edge deployment with practical assignments.'},
+      {img:'/assets/images/blog/comment-03.png',rating:5,name:'Riya Deshmukh',date:'Oct 28, 2025',desc:'A brilliant course that bridges the gap between cloud infrastructure and smart device networks. The mentors were always supportive and responsive.'},
     ]
   },
   {
@@ -610,9 +610,9 @@ const course_data = [
       },
     ],
     reviews:[
-      {img:'/assets/images/blog/comment-01.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-02.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-03.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+       {img:'/assets/images/blog/comment.png',rating:5,name:'Neha Singh',date:'Oct 29, 2025',desc:'This course opened my eyes to real cyber threats and forensic analysis. We simulated live attacks and learned professional incident response skills.'},
+       {img:'/assets/images/blog/comment-02.png',rating:5,name:'Vikram Joshi',date:'Oct 30, 2025',desc:'I liked the hands-on labs in ethical hacking, network defense, and digital forensics. It’s a complete cybersecurity journey from basics to pro level.'},
+       {img:'/assets/images/blog/comment-03.png',rating:5,name:'Riya Das',date:'Oct 31, 2025',desc:'The mentors helped us learn penetration testing and digital evidence handling systematically. I now feel career-ready for cybersecurity roles.'},
     ]
   },
   {
@@ -805,9 +805,9 @@ const course_data = [
       ],
     },
   ],    reviews:[
-      {img:'/assets/images/blog/comment-01.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-02.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-03.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+      {img:'/assets/images/blog/comment.png',rating:5,name:'Meera Pillai',date:'Nov 1, 2025',desc:'As a first-year UG student, this course boosted my confidence in technical problem-solving. The mentors made complex concepts easy to grasp.'},
+      {img:'/assets/images/blog/comment-02.png',rating:5,name:'Dhruv Shah',date:'Nov 2, 2025',desc:'A year-long, well-structured course that introduced me to real-world projects early. Perfect for students preparing for future tech careers.'},
+      {img:'/assets/images/blog/comment-03.png',rating:5,name:'Aditya Rao',date:'Nov 3, 2025',desc:'The STEM Readiness program built my foundation in coding, robotics, and AI. Every week was packed with practical and fun learning.'},
     ]
   },
   {

@@ -26,7 +26,7 @@ const OrderSummery = () => {
                             ))}
                             <tr className="order-total">
                                 <td>Order Total</td>
-                                <td>${total}</td>
+                                <td>₹{total}</td>
                             </tr>
                         </tbody>
                     </table>

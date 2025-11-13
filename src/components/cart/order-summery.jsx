@@ -11,11 +11,11 @@ const OrderSummery = () => {
 				<tbody>
 					<tr className="order-subtotal">
 						<td>Subtotal</td>
-						<td>${(total).toFixed(2)}</td>
+						<td>₹{(total).toFixed(2)}</td>
 					</tr>
 					<tr className="order-total">
 						<td>Order Total</td>
-						<td>${(total).toFixed(2)}</td>
+						<td>₹{(total).toFixed(2)}</td>
 					</tr>
 				</tbody>
 			</table>

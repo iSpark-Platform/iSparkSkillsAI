@@ -69,9 +69,9 @@ const internship_data = [
         },
       ],
       reviews:[
-        {img:'/assets/images/blog/comment.png',rating:5,name:'Haley Bennet',date:'Oct 10, 2025',desc:'The internship gave me practical robotics experience. Building the AGV myself was an incredible learning journey.'},
-        {img:'/assets/images/blog/comment-02.png',rating:5,name:'Simon Baker',date:'Oct 15, 2025',desc:'Loved the balance between hardware and coding. The iSpark CoE lab was excellent for experimentation.'},
-        {img:'/assets/images/blog/comment-03.png',rating:5,name:'Richard Gere',date:'Oct 19, 2025',desc:'The mentorship and structured weekly learning helped me build confidence in robotics programming.'},
+        {img:'/assets/images/blog/comment.png',rating:5,name:'Aisha Patel',date:'Nov 4, 2025',desc:'This internship gave me real exposure to robotic automation systems used in modern factories. The hands-on experience with sensors and PLC integration was fantastic.'},
+        {img:'/assets/images/blog/comment-02.png',rating:5,name:'Rohan Desai',date:'Nov 5, 2025',desc:'The course bridged robotics and industrial automation perfectly. I learned how robotic arms and smart controllers work in real manufacturing environments.'},
+        {img:'/assets/images/blog/comment-03.png',rating:5,name:'Kritika Mehta',date:'Nov 6, 2025',desc:'A well-structured internship where I got to design, code, and test actual robotic systems aligned with Industry 4.0 standards.'},
       ]
     },
     {
@@ -148,9 +148,9 @@ const internship_data = [
         },
       ],
       reviews:[
-        {img:'/assets/images/blog/comment-01.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {img:'/assets/images/blog/comment-02.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {img:'/assets/images/blog/comment-03.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+        {img:'/assets/images/blog/comment.png',rating:5,name:'Neelam Shah',date:'Nov 7, 2025',desc:'This course helped me move beyond theory to real-world ML deployment. We trained, tuned, and deployed predictive models using real datasets.'},
+        {img:'/assets/images/blog/comment-02.png',rating:5,name:'Arnav Kapoor',date:'Nov 8, 2025',desc:'Excellent program for building solid AI foundations. The mentors explained complex ML workflows clearly and guided us through end-to-end projects.'},
+        {img:'/assets/images/blog/comment-03.png',rating:5,name:'Suhani Batra',date:'Nov 9, 2025',desc:'I learned how to connect ML models to APIs and apps — making AI actually useful in real industry projects. A must-do for aspiring data scientists!'},
       ]
     },
     {
@@ -227,9 +227,9 @@ const internship_data = [
         },
       ],
       reviews:[
-        {img:'/assets/images/blog/comment-01.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {img:'/assets/images/blog/comment-02.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {img:'/assets/images/blog/comment-03.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+        {img:'/assets/images/blog/comment.png',rating:5,name:'Ritika Nair',date:'Nov 10, 2025',desc:'The IoT & IIoT course helped me understand connected systems deeply. I worked on smart monitoring and automation prototypes that felt truly futuristic.'},
+        {img:'/assets/images/blog/comment-02.png',rating:5,name:'Aditya Menon',date:'Nov 11, 2025',desc:'Hands-on sessions on NodeMCU, Raspberry Pi, and MQTT made this course very practical. I can now design complete IoT pipelines confidently.'},
+        {img:'/assets/images/blog/comment-03.png',rating:5,name:'Tanvi Joshi',date:'Nov 12, 2025',desc:'Brilliant experience connecting sensors, cloud, and data analytics. The industrial IoT case studies really showed how automation works in smart factories.'},
       ]
     },
     {
@@ -306,9 +306,9 @@ const internship_data = [
         },
       ],
       reviews:[
-        {img:'/assets/images/blog/comment-01.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {img:'/assets/images/blog/comment-02.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {img:'/assets/images/blog/comment-03.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+        {img:'/assets/images/blog/comment.png',rating:5,name:'Sneha Rao',date:'Nov 13, 2025',desc:'This course clearly explained how cloud and edge technologies power connected systems. I learned deployment and scaling on AWS and Azure.'},
+        {img:'/assets/images/blog/comment-02.png',rating:5,name:'Nikhil Jain',date:'Nov 14, 2025',desc:'A career-oriented program that helped me understand hybrid cloud, IoT integration, and AI inference at the edge. Very hands-on and engaging.'},
+        {img:'/assets/images/blog/comment-03.png',rating:5,name:'Divya Ghosh',date:'Nov 15, 2025',desc:'I got real project exposure in deploying edge AI models. The cloud labs and mentor support made the learning seamless and practical.'},
       ]
     },
     {
@@ -385,9 +385,9 @@ const internship_data = [
         },
       ],
       reviews:[
-        {img:'/assets/images/blog/comment-01.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {img:'/assets/images/blog/comment-02.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {img:'/assets/images/blog/comment-03.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+         {img:'/assets/images/blog/comment.png',rating:5,name:'Shruti Kamat',date:'Nov 16, 2025',desc:'The 3D printing labs were incredible! I learned CAD design, slicing, and prototyping end-to-end. Seeing my designs come to life was amazing.'},
+         {img:'/assets/images/blog/comment-02.png',rating:5,name:'Karan Bhosale',date:'Nov 17, 2025',desc:'An extremely creative course that blends engineering with design. The digital fabrication workshops gave me real product development skills.'},
+         {img:'/assets/images/blog/comment-03.png',rating:5,name:'Nivedita Roy',date:'Nov 18, 2025',desc:'Perfect for engineers who want to explore rapid prototyping. The mentors encouraged experimentation and innovation throughout.'},
       ]
     },
     {
@@ -464,9 +464,9 @@ const internship_data = [
         },
       ],
       reviews:[
-        {img:'/assets/images/blog/comment-01.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {img:'/assets/images/blog/comment-02.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-        {img:'/assets/images/blog/comment-03.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+        {img:'/assets/images/blog/comment.png',rating:5,name:'Isha Malhotra',date:'Nov 19, 2025',desc:'This internship taught me to design and deploy AI agents capable of reasoning and adapting. I worked on automation tasks that mimicked human logic!'},
+        {img:'/assets/images/blog/comment-02.png',rating:5,name:'Varun Singh',date:'Nov 20, 2025',desc:'I loved building intelligent assistants using LLMs and API integrations. The mentors helped me connect AI agents with real-world workflows.'},
+        {img:'/assets/images/blog/comment-03.png',rating:5,name:'Rhea D’Souza',date:'Nov 21, 2025',desc:'A futuristic internship that made me confident in building context-aware intelligent systems. The projects were challenging yet exciting.'},
       ]
     },
     {

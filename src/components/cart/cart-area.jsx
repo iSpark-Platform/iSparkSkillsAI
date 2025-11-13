@@ -40,7 +40,7 @@ const CartArea = () => {
                         </table>
                     </div>
 
-                    <div className="cart-update-btn-area">
+                    {/* <div className="cart-update-btn-area">
                         <div className="input-group product-cupon">
                             <input placeholder="Coupon code..." type="text" />
                             <button type="submit" className="submit-btn"><i className="icon-4"></i></button>
@@ -50,7 +50,7 @@ const CartArea = () => {
                                 <i className="icon-4"></i>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="row">
                         <div className="col-xl-5 col-lg-7 offset-xl-7 offset-lg-5">
