@@ -69,8 +69,8 @@ const HeaderThree = ({style_2=false}) => {
                                     </li>
 
                                     <li className="header-btn">
-                                        <Link href="/contact-us" className="edu-btn btn-medium btn-curved">
-                                            Try for free <i className="icon-4"></i>
+                                        <Link href="/login" className="edu-btn btn-medium btn-curved">
+                                            Try Now <i className="icon-4"></i>
                                         </Link>
                                     </li>
 

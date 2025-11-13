@@ -5,6 +5,13 @@ import useCartInfo from '../../hooks/use-cart-info';
 const OrderSummery = () => {
     const {cartCourses} = useSelector(state => state.cart);
     const {total} = useCartInfo();
+    
+    const handlePlaceOrder = (e) => {
+        e.preventDefault();
+        // Add your order placement logic here
+        console.log('Order placed!');
+    };
+    
     return (
         <div className="order-summery checkout-summery">
             <div className="summery-table-wrap">
@@ -16,20 +23,30 @@ const OrderSummery = () => {
                 }
 
                 {cartCourses.length > 0 &&
-                    <table className="table summery-table">
-                        <tbody>
-                            {cartCourses.map((item,i) => (
-                                <tr key={i}>
-                                    <td>{item.title.substring(0,20)}... <span className="quantity">x {item.quantity}</span></td>
-                                    <td>₹{item.price}</td>
+                    <>
+                        <table className="table summery-table">
+                            <tbody>
+                                {cartCourses.map((item,i) => (
+                                    <tr key={i}>
+                                        <td>{item.title.substring(0,20)}... <span className="quantity">x {item.quantity}</span></td>
+                                        <td>₹{item.price}</td>
+                                    </tr>
+                                ))}
+                                <tr className="order-total">
+                                    <td>Order Total</td>
+                                    <td>₹{total}</td>
                                 </tr>
-                            ))}
-                            <tr className="order-total">
-                                <td>Order Total</td>
-                                <td>₹{total}</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                            </tbody>
+                        </table>
+                        
+                        {/* Place Order Button moved here */}
+                        <button 
+                            onClick={handlePlaceOrder} 
+                            className="edu-btn order-place w-100 mt-4"
+                        >
+                            Place Your Order <i className="icon-4"></i>
+                        </button>
+                    </>
                 }
             </div>
         </div>

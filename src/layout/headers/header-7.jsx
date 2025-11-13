@@ -32,7 +32,7 @@ const HeaderSeven = ({cls}) => {
             <div className="header-right">
               <ul className="header-action">
                 <li className="header-btn">
-                  <Link href="/contact-us" className="edu-btn btn-medium">Try for free <i className="icon-4"></i></Link>
+                  <Link href="/contact-us" className="edu-btn btn-medium">Try Now <i className="icon-4"></i></Link>
                 </li>
                 <li className="mobile-menu-bar d-block d-xl-none">
                   <button onClick={() => setIsOpen(true)} className="hamberger-button">

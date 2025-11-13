@@ -1,10 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
-import OrderPayment from './order-payment';
+// import OrderPayment from './order-payment';
 import OrderSummery from './order-summery';
 
 const countries = [ 
-    'Select Option', 
+    'Select Option',
+    'India', 
     'Australia', 
     'England', 
     'New Zealand', 
@@ -133,7 +134,7 @@ const CheckoutArea = () => {
                         
                         <div className="col-lg-6">
                             <OrderSummery/>
-                            <OrderPayment/>
+                            {/* <OrderPayment/> */}
                         </div>
                     </div>
                 </form>
