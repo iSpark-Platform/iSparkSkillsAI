@@ -40,7 +40,7 @@ const SortingArea = ({course_items, num, setCourses, courses,course_list, items 
                             </Link>
                         </li>
                         <li>
-                            <Link href="/internship-style-4" className={course_list?"active":''}>
+                            <Link href="/internship-style" className={course_list?"active":''}>
                                 <i className="icon-54"></i>
                             </Link>
                         </li>

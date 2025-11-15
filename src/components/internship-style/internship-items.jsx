@@ -6,9 +6,9 @@ import {
     add_item_offset
 } from "../../redux/features/filter-slice";
 import Pagination from "../../ui/pagination";
-import CourseTypeFive from '../course/course-type-five';
+import InternshipTypeTwo from '../course/internship-type-two';
 
-const CourseItems = ({ itemsPerPage, items, course_style, setShowing }) => {
+const InternshipItems = ({ itemsPerPage, items, course_style, setShowing }) => {
     const { page_count, item_offset, forcePage } = useSelector(
         (state) => state.filter
     );
@@ -51,19 +51,19 @@ const CourseItems = ({ itemsPerPage, items, course_style, setShowing }) => {
         <>
             {currentItems && currentItems.map((course, i) => {
                 return (
-                    <CourseTypeFive key={i} data={course} />
+                    <InternshipTypeTwo key={i} data={course} />
                 )
             })}
 
-            { pageCount > 1 && (
+            {/* { pageCount > 1 && (
                 <Pagination
                     handlePageClick={handlePageClick}
                     pageCount={pageCount}
                     focusPage={forcePage}
                 />
-            ) }
+            ) } */}
         </>
     )
 }
 
-export default CourseItems;
+export default InternshipItems;
