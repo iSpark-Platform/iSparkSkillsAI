@@ -2,7 +2,7 @@
 import React from 'react';
 import { Footer, Header } from '../../layout';
 import BreadcrumbThree from '../breadcrumb/breadcrumb-3';
-import RegisterArea from './register2-area';
+import Register2Area from './register2-area';
 import useParallax from '@/hooks/use-parallax';
 
 const Register2Main = () => {
