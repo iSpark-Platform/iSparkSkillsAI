@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { useSelector } from 'react-redux';
 import MainMenu from '../headers/component/main-menu';
@@ -10,6 +10,9 @@ import { wishlistItems } from '../../redux/features/wishlist-slice';
 import useCartInfo from '../../hooks/use-cart-info';
 import OffCanvas from '../../components/common/sidebar/off-canvas';
 import Cart from './component/cart';
+import TryNowDropdown from '../../components/try-now-dropdown/try-now-dropdown';
+
+
 
 const categories = [
     { link: '/course-style-1', title: 'Humanoid Robotics' },
@@ -117,10 +120,11 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                         <Cart />
                                     </li>
                                     <li className="header-btn">
-                                        <Link href="/login" className="edu-btn btn-medium">
-                                           Try Now <i className="icon-4"></i>
-                                        </Link>
+                                        <TryNowDropdown />
                                     </li>
+                                    {/* <li className="header-btn">
+                                        <UserProfileMenu />
+                                    </li> */}
                                     <li className="mobile-menu-bar d-block d-xl-none">
                                         <button className="hamberger-button" onClick={() => setIsOpen(true)}>
                                             <i className="icon-54"></i>
@@ -143,5 +147,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
         </>
     )
 }
+
+
 
 export default Header;

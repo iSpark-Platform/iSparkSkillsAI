@@ -12,7 +12,6 @@ import FooterThree from "./footers/footer-3";
 import FooterFour from "./footers/footer-4";
 import FooterSix from "./footers/footer-6";
 import Wrapper from "./wrapper";
-
 export {
     Header,
     HeaderTwo,
