@@ -270,7 +270,7 @@ const blog_data = [
     id:24,
     img:'/assets/images/blog/blog-02.jpg',
     category:'Lecture',
-    title:'Fresh Inspiration For March And A',
+    title:'Fresh Inspiration For March And A',  
     date:'Sep 15, 2026',
     comment:'10',
     desc:'Lorem ipsum dolor sit amet cons tetur adipisicing sed do eiusmod ux tempor incid idunt labore dol oremagna aliqua.',

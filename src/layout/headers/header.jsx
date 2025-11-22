@@ -117,7 +117,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                         <Cart />
                                     </li>
                                     <li className="header-btn">
-                                        <Link href="/login" className="edu-btn btn-medium">
+                                        <Link href="/dashboard-1" className="edu-btn btn-medium">
                                            Try Now <i className="icon-4"></i>
                                         </Link>
                                     </li>

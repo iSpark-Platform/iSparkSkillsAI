@@ -36,7 +36,7 @@ const CourseBreadcrumb = ({ course, subtitle }) => {
                             <i className="icon-23"></i>
                             <i className="icon-23"></i>
                         </div>
-                        <span className="rating-count">({rating_count} Rating)</span>
+                      
                         </li>
                     </ul>
                 </div>
