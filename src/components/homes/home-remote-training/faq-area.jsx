@@ -1,5 +1,10 @@
 import React from 'react';
-import accordion_items from '@/data/faq-data';
+import { faq_data } from '@/data/faq-data';
+
+// faq_data is grouped by sections; flatten to a single list of items
+const accordion_items = Array.isArray(faq_data)
+    ? faq_data.reduce((acc, section) => acc.concat(section.items || []), [])
+    : [];
 
 const FaqArea = () => {
   return (
