@@ -1,6 +1,9 @@
 import React from 'react';
 
 const TeamArea = ({ team }) => {
+
+    if (!team) return null;
+
     return (
         <div className="edu-team-details-area section-gap-equal">
             <div className="container">
@@ -8,7 +11,10 @@ const TeamArea = ({ team }) => {
                     <div className="col-lg-4">
                         <div className="team-details-thumb">
                             <div className="thumbnail">
-                                <img src={`/assets/images/team/team-02/${team.img}`} alt="team images" />
+                                <img 
+                                    src={`/assets/images/team/team-02/${team.img}`} 
+                                    alt="team images" 
+                                />
                             </div>
 
                             <ul className="social-share">
@@ -47,16 +53,16 @@ const TeamArea = ({ team }) => {
 
                             <div className="bio-describe">
                                 <h4 className="title">About Me</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur elit sed do eius mod tempor incidid labore dolore magna aliqua. enim ad minim eniam quis nostrud exercitation ullamco laboris nisi aliquip ex commodo consequat. duis aute irure dolor in repreed ut perspiciatis unde omnis iste natus error sit voluptat em acus antium.</p>
-                                <p>doloremque laudantium totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi arch itecto beatae vitae dicta sunt explicabo.</p>
+                                <p>{team?.about1}</p>
+                                <p>{team?.about2}</p>
                             </div>
 
                             <div className="contact-info">
                                 <h4 className="title">Contact Me</h4>
                                 <ul>
-                                    <li><span>Address:</span>North Helenavile, FV77 8WS</li>
-                                    <li><span>Email:</span><a href="mailto:edublink@example.com" target="_blank" rel="noreferrer">edublink@example.com</a></li>
-                                    <li><span>Phone:</span><a href="tel:+37(417)683-4409">+37 (417) 683-4409</a></li>
+                                    <li><span>Address:</span> {team?.contact?.address}</li>
+                                    <li><span>Email:</span><a href={`mailto:${team?.contact?.email}`} target="_blank" rel="noreferrer">{team?.contact?.email}</a></li>
+                                    <li><span>Phone:</span><a href={`tel:${team?.contact?.phone}`}>{team?.contact?.phone}</a></li>
                                 </ul>
                             </div>
                         </div>

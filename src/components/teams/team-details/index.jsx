@@ -14,7 +14,7 @@ const TeamDetailsMain = ({team}) => {
                 <Header no_top_bar={true} />
                 <BreadcrumbThree title="Instructor Details" subtitle="Instructor Details" />
                 <TeamArea team={team} />
-                <CourseArea name={team.name}/>
+                <CourseArea name={team?.name || ""} />
                 <Footer style_2={'footer-dark bg-image footer-style-2'} />
             </div>
         </div>

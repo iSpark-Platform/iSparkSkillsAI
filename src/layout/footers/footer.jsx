@@ -15,11 +15,13 @@ const footer_contents = {
             widget_title: 'Online Platform',
             footer_links: [
                 { link: 'about-1', title: 'About' },
-                { link: 'course-style-1', title: 'Courses' },
+                { link: 'course-style-3', title: 'Courses' },
+                { link: 'internship', title: 'Internships' },
                 { link: 'team-1', title: 'Instructor' },
-                { link: 'event-grid', title: 'Events' },
-                { link: 'team-details', title: 'Instructor Profile' },
-                { link: 'purchase-guide', title: 'Purchase Guide' }
+                { link: '#', title: 'Events' },
+                // { link: 'event-grid', title: 'Events' },
+                { link: '#', title: 'Purchase Guide' }
+                // { link: 'purchase-guide', title: 'Purchase Guide' }
             ]
         },
         {
@@ -31,7 +33,7 @@ const footer_contents = {
                 { link: 'gallery-grid', title: 'Gallery' },
                 { link: 'blog-standard', title: 'News & Articles' },
                 { link: 'faq', title: "FAQ's" },
-                { link: 'sign-in', title: 'Sign In/Registration' },
+                { link: 'login', title: 'Sign In' },
                 { link: 'coming-soon', title: 'Coming Soon' }
             ]
         }
