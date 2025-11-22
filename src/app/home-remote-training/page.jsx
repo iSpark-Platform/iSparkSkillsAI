@@ -1,3 +1,4 @@
+"use client";
 import { Wrapper } from "@/layout";
 import HomeRemoteTrainingMain from "@/components/homes/home-remote-training";
 

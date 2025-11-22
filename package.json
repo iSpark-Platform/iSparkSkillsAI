@@ -12,6 +12,7 @@
     "protobufjs": "7.2.5"
   },
   "dependencies": {
+    "@aws-amplify/cli": "^14.2.3",
     "@aws-amplify/ui-react": "^6.13.1",
     "@babel/plugin-transform-async-generator-functions": "^7.28.0",
     "@babel/plugin-transform-class-properties": "^7.27.1",
@@ -57,5 +58,14 @@
     "styled-components": "^6.1.19",
     "swiper": "^10.1.0",
     "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.18.0",
+    "@aws-amplify/backend-cli": "^1.8.0",
+    "aws-cdk-lib": "^2.216.0",
+    "constructs": "^10.4.3",
+    "esbuild": "^0.27.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
   }
 }
