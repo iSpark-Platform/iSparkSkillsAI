@@ -1,79 +1,121 @@
 const instructors_data = [
     {
         id:1,
-        img:'team-01.jpg',
+        img:'karthik.jpg',
         social_links:[
             {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Rajesh Nair',
-        title:'UI Designer',
+        name:'Karthiksaran',
+        title:'AI Engineer',
         delay:'50',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        about1:"I am an AI Engineer specializing in intelligent systems, automation tools, and agentic AI platforms. I work with machine learning, IoT, and cloud technologies to build real-world solutions that improve efficiency, learning, and problem-solving. My focus is on creating AI applications that make a meaningful impact.",
+        about2:"I enjoy exploring emerging technologies and converting complex ideas into simple, practical solutions. Teaching, mentoring, and helping students understand AI concepts is something I truly enjoy, and I strive to create tools and learning experiences that inspire innovation.",
+        sm_text:"An AI Engineer specializing in building intelligent systems, automation tools, and agentic AI platforms. Passionate about integrating machine learning with real-world applications to create impactful user experiences.",
+        contact: {
+            address: "Chennai, Tamilnadu",
+            email: "Karthikd@isparklearning.com",
+            phone: "+91 98765 43210"
+        }
     },
     {
         id:2,
-        img:'team-02.jpg',
+        img:'mugil.jpg',
         social_links:[
             {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Aditya Sharma',
-        title:'Web Developer',
+        name:'Mugilan',
+        title:'AI/ML Engineer',
         delay:'100',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        about1:"I am an AI/ML Engineer with experience in building predictive models, processing large datasets, and deploying machine learning systems. I enjoy working on projects that involve automation, data analysis, and intelligent decision-making.",
+        about2:"My passion lies in turning raw data into meaningful insights and developing AI solutions that solve real-world problems. I like experimenting with new algorithms and continuously improving models for better performance.",
+        sm_text:"Expert in machine learning model development, data preprocessing, and deploying scalable AI solutions. He focuses on developing predictive systems and transforming complex data into actionable insights.",
+        contact: {
+            address: "Chennai, Tamilnadu",
+            email: "mugilavan@isparklearning.com",
+            phone: "+91 98765 43210"
+        }
     },
     {
         id:3,
-        img:'team-03.jpg',
+        img:'prathap.jpg',
         social_links:[
             {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Vivek Iyer',
-        title:'Digital Marketer',
+        name:'Prathap',
+        title:'Robotics Engineer',
         delay:'150',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        about1:"I am a Robotics Engineer with a strong background in embedded systems, microcontrollers, and automation. I design and develop hands-on robotics projects that combine coding, electronics, and mechanics.",
+        about2:"I love teaching robotics through practical activities and helping students understand how technology works in real life. Creating engaging STEM experiences and building functional robots is something I truly enjoy.",
+        sm_text:"A Robotics Engineer with hands-on expertise in embedded systems, microcontrollers, and automation projects. He designs and programs robots that support STEM education and real-world problem solving.",
+        contact: {
+            address: "Chennai, Tamilnadu",
+            email: "prathapr@isparklearning.com",
+            phone: "+91 98765 43210"
+        }
     },
     {
         id:4,
-        img:'team-04.jpg',
+        img:'kokila.jpg',
         social_links:[
             {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Ananya Reddy',
-        title:'Wordpress Expert',
+        name:'Kokila',
+        title:'Robotics Engineer',
         delay:'200',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        about1:"I am a Robotics Engineer focused on designing educational robotics projects and sensor-based automation systems. I enjoy building learning modules that help students understand robotics in a simple and structured way.",
+        about2:"Empowering young learners through hands-on STEM activities is something I am passionate about. I believe in making robotics fun, interactive, and accessible to everyone.",
+        sm_text:"Focused on designing STEM-based robotics projects, modular robot systems, and sensor-based automation. She brings strong engineering insight to hands-on learning and innovation in robotics.",
+        contact: {
+            address: "Chennai, Tamilnadu",
+            email: "kokilam@isparklearning.com",
+            phone: "+91 98765 43210"
+        }
     },
     {
-        id:5,
-        img:'team-05.jpg',
+        uid:5,
+        img:'swami.jpg',
         social_links:[
             {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Susan White',
-        title:'Wordpress Expert',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        name:'Swami Kurkute',
+        title:'Ai Engineer',
+        about1:"I am an AI Engineer with experience in machine learning workflows, automation, and model deployment. I work on building AI solutions that improve productivity and simplify complex tasks.",
+        about2:"I enjoy experimenting with new technologies and creating systems that deliver real value. My goal is to build practical, reliable AI applications that help users and organizations work smarter.",
+        sm_text:"An AI Engineer with strong experience in model training, problem-solving, and developing intelligent automation workflows. He works on implementing AI technologies that enhance productivity and learning outcomes.",
+        contact: {
+            address: "Chennai, Tamilnadu",
+            email: "swamik@isparklearning.com",
+            phone: "+91 98765 43210"
+        }
     },
     {
         id:6,
-        img:'team-06.webp',
+        img:'avinash.jpg',
         social_links:[
             {link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook'},
             {link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter'},
             {link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2'}
         ],
-        name:'Connie Comerford',
-        title:'Web Developer',
-        sm_text:"Consectetur adipisicing elit, sed do eius mod tempor incididunt"
+        name:'Avinash',
+        title:'Graphic Designer',
+        about1:"I am a Graphic Designer specializing in visual communication, branding, and digital content creation. I enjoy creating clean, modern, and impactful designs that communicate ideas clearly.",
+        about2:"Design is my way of telling stories, and I love working on projects that combine creativity with purpose. Whether it's digital content or brand identity, I focus on delivering visuals that leave a strong impression.",
+        sm_text:"A Graphic Designer with expertise in visual storytelling, branding, and creative solutions. He combines artistic vision with technical skills to create impactful designs that communicate brand messages effectively.",
+        contact: {
+            address: "Chennai, Tamilnadu",
+            email: "avinashs@isparklearning.com",
+            phone: "+91 98765 43210"
+        }
     },
     {
         id:7,
