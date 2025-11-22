@@ -10,7 +10,7 @@ import { wishlistItems } from '../../redux/features/wishlist-slice';
 import useCartInfo from '../../hooks/use-cart-info';
 import OffCanvas from '../../components/common/sidebar/off-canvas';
 import Cart from './component/cart';
-import TryNowDropdown from '../../components/try-now-dropdown/try-now-dropdown';
+import ProfileDropdown from '../../components/profile-dropdown/profile-dropdown';
 
 
 
@@ -120,11 +120,9 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                         <Cart />
                                     </li>
                                     <li className="header-btn">
-                                        <TryNowDropdown />
+                                        <ProfileDropdown />
                                     </li>
-                                    {/* <li className="header-btn">
-                                        <UserProfileMenu />
-                                    </li> */}
+                                
                                     <li className="mobile-menu-bar d-block d-xl-none">
                                         <button className="hamberger-button" onClick={() => setIsOpen(true)}>
                                             <i className="icon-54"></i>

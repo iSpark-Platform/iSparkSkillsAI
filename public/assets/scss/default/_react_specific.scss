@@ -271,144 +271,127 @@
     z-index: 2;
 }
 
-/* Try Now Dropdown Style */
-.try-now-dropdown-wrapper {
-    position: relative;
-    display: inline-block;
 
-    /* Creates invisible bridge between button and dropdown */
-    &::after {
+// new profile icon button style for landing page header 
+/* Profile Dropdown - Exact Copy from Dashboard Header */
+.user-menu-wrapper {
+    position: relative;
+    z-index: 1001;
+
+    /* Creates invisible bridge between avatar and dropdown - covers diagonal movement */
+    &::before {
         content: '';
         position: absolute;
         top: 100%;
-        left: 0;
-        right: 0;
-        height: 20px;
-        z-index: 998;
-    }
-
-    .try-now-btn {
-        cursor: pointer;
-        transition: all 0.3s;
-        
-        &:hover {
-            transform: translateY(-2px);
-        }
-    }
-
-    .try-now-dropdown {
-        top: calc(100% + 20px);
-        right: 0;
-        position: absolute;
-        opacity: 0;
-        visibility: hidden;
-        transition: 0.3s;
-        pointer-events: none;
+        left: -70px;
+        width: 200px;
+        height: 70px;
         z-index: 999;
-
-        @media only screen and (max-width: 1199px) {
-            display: none;
-        }
-
-        &.show {
-            opacity: 1;
-            visibility: visible;
-            pointer-events: all;
-        }
-
-        .dropdown-wrapper {
-            min-width: 300px;
-            z-index: 8;
-            text-align: left;
-            padding: 10px 0;
-            transition: 0.3s;
-            background: #003268 ;
-            box-shadow: 0px 10px 40px rgb(0 0 0 / 8%);
-            border-radius: 8px;
-
-            .dropdown-menu-items {
-                margin: 0;
-                padding: 0;
-                list-style: none;
-
-                li {
-                    margin: 0;
-                    
-                    a {
-                        display: block;
-                        text-decoration: none;
-                        
-                        .dropdown-item {
-                            display: flex;
-                            align-items: center;
-                            padding: 15px 25px; 
-                            font-family: var(--font-secondary);
-                            font-weight: 500;
-                            line-height: 1.5; 
-                            color: var(--color-white);
-                            transition: all 0.3s;
-                            cursor: pointer;
-                            justify-content: flex-start;
-
-                            i {
-                                margin-right: 10px;
-                                font-size: 14px;
-                                width: 20px;  /* Added - fixed width */
-                                height: 20px;
-                                display: inline-flex;  /* Added - better control */
-                                align-items: center; 
-                                justify-content: center;  /* Added - center the icon */
-                                color: var(--color-white); 
-                                transition: all 0.3s;
-                            }
-
-                            &:hover {
-                                //background: rgba(255, 255, 255, 0.15);
-                                color: var(--color-white);
-                                padding-left: 30px;
-
-                                i {
-                                    transform: translateX(3px);
-                                }
-                            }
-                        }
-                    }
-
-                    &:not(:last-child) {
-                        border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
-                    }
-                }
-            }
-        }
+        pointer-events: auto;
     }
 }
 
-/* Hover effect for the wrapper */
-.try-now-dropdown-wrapper:hover {
-    .try-now-dropdown {
+.user-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    height: 42px;
+}
+
+.user-button:hover {
+    background-color: transparent;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #1640ff 0%, #1640ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.user-avatar:hover {
+    transform: scale(1.05);
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    z-index: 999;
+}
+
+.user-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    min-width: 220px;
+    z-index: 1000;
+    animation: slideDown 0.2s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
         opacity: 1;
-        visibility: visible;
-        pointer-events: all;
+        transform: translateY(0);
     }
 }
 
-/* Custom Try Now Button Color Override */
-.try-now-btn-custom {
-    background: #003268 !important;  /* Change this to your desired color */
-    
-    &:after {
-        background: linear-gradient(to left, #003268 0%, #003268 76%) !important;  /* Change gradient colors */
-    }
-
-    &:hover {
-        &:after {
-            left: 0;
-            width: 100%;
-        }
-    }
+.user-dropdown-body {
+    padding: 8px 0;
 }
 
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    background: none;
+    text-align: left;
+    color: #1f2937;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
 
+.menu-item:hover {
+    background-color: #f9fafb;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .user-button {
+        width: 38px;
+        height: 38px;
+    }
+
+    .user-dropdown {
+        right: -10px;
+        min-width: 260px;
+    }
+}
 /*gallery*/
 .edu-gallery-grid {
     padding: 0;
