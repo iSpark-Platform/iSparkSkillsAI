@@ -1,6 +1,7 @@
 import React from 'react';
 import { instructors_data } from '../../../data';
-import TeamThree from "../../../components/team-member/team-three";
+import TeamThree from "@/components/team-member/team-three";
+
 
 const TeamArea = () => {
     return (
